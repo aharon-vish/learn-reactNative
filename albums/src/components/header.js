@@ -2,7 +2,7 @@ import React from 'react';
 import { Text } from 'react-native';
 
 const Header = () => {
-    return <Text>Album !</Text>;
+    return <Text>Album!</Text>;
 };
 
 export default Header ;
