@@ -1,19 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {
-  AppRegistry,
-  StyleSheet,
-  Text,
-  View
+    AppRegistry,
+    StyleSheet,
+    Text,
+    View
 } from 'react-native';
+import Header from './src/components/header';
 
+const App = () => (
+    <Header/>
+);
 
-export default class albums extends Component {
-  render() {
-    return (
-      <View>
-
-      </View>
-    );
-  }
-}
-AppRegistry.registerComponent('albums', () => albums);
+AppRegistry.registerComponent('albums', () => App);
