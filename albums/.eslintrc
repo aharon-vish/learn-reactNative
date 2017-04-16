@@ -17,7 +17,7 @@
   "rules": {
     "comma-dangle": 0,
     "react-native/no-unused-styles": 2,
-    "react-native/split-platform-components": 2,
+    "react-native/split-platform-components": 2
   },
   "settings": {
     "react": {

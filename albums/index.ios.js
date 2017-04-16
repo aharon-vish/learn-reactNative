@@ -8,7 +8,7 @@ import {
 import Header from './src/components/header';
 
 const App = () => (
-    <Header/>
+    <Header headerText={'Album!'}/>
 );
 
 AppRegistry.registerComponent('albums', () => App);
