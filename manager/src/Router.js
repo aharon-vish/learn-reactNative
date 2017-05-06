@@ -11,11 +11,11 @@ const RouterComponent = ()=> {
             </Scene>
             <Scene key="main">
                 <Scene
+                    onRight={() => Actions.employeeCreate()}
+                    rightTitle="Add"
                     key="employeeList"
                     component={EmployeeList}
                     title="Employees"
-                    rightTitle="Add"
-                    onRight={()=>Actions.employeeCreate()}
                     initial/>
             </Scene>
             <Scene key="employeeCreate" component={EmployeeCreate} title="Employee Create"/>
